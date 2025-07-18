@@ -1,4 +1,4 @@
-#Author: OMKAR PATHAK
+
 #Program to convert decimal to its equivalent binary
 
 def decimalToBinary(n):
