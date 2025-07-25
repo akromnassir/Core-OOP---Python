@@ -1,8 +1,8 @@
 
-#This program is an example for sequential search
+#This program is an example of sequential search
 
 def sequentialSearch(target, List):
-    '''This function returns the position of the target if found else returns -1'''
+    ''' This function returns the position of the target if found, else returns -1'''
     position = 0
     global iterations
     iterations = 0
