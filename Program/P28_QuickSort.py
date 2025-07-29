@@ -3,8 +3,8 @@
 
 #  Quicksort works by selecting an element called a pivot and splitting
 #  the array around that pivot such that all the elements in, say, the
-#  left sub-array are less than pivot and all the elements in the right
-#  sub-array are greater than pivot. The splitting continues until the
+#  left sub-array are less than the pivot and all the elements in the right
+#  sub-array are greater than the pivot. The splitting continues until the
 #  array can no longer be broken into pieces. That's it. Quicksort is
 #  done.
 
@@ -13,7 +13,7 @@ import time
 
 def quickSort(myList, start, end):
     if start < end:
-        # partition the list
+        # Partition the list
         pivot = partition(myList, start, end)
         # sort both halves
         quickSort(myList, start, pivot-1)
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     start = time.time()
     print('Sorted List:',quickSort(List, 0, len(List) - 1))
     stop = time.time()
-    print('Time Required:', (stop - start))
+    print('Time Required:', (stop-start))
     start = time.time()
     print('Sorted List:', quicksortBetter(List))
     stop = time.time()
