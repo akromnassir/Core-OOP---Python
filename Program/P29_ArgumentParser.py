@@ -1,5 +1,5 @@
 
-#In this example w will see the example for Python argument parser
+#In this example, we will see the example for Python argument parser
 
 import argparse
 
