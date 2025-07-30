@@ -9,13 +9,13 @@ class Array(object):
             pass preinitialized list to set the values of the array elements
         '''
         self.size = size
-        # If only the array size is initialized then initialize all the elements as None type
+        # If only the array size is initialized, then initialize all the elements as None type
         if(defaultValue == None):
             self.items = list()
             for i in range(size):
                 self.items.append(defaultValue)
         else:
-            # If user has given the default values for the array
+            # If the user has given the default values for the array
             self.items = list()
 
             if(len(defaultValue) == size or len(defaultValue) < size):
