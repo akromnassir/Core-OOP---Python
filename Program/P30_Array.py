@@ -1,15 +1,15 @@
 
-#This example illustrates how an array can be implemened using Python
+#This example illustrates how an array can be implemented using Python
 
 class Array(object):
     def __init__(self, size, defaultValue = None):
         '''
             size: indicates the static size of the Array
-            defaultValue indicates the default value that Array takes while creation, you can also
+            defaultValue indicates the default value that the Array takes while creation, you can also
             pass preinitialized list to set the values of the array elements
         '''
         self.size = size
-        # If only array size is initialized then, initialize all the elements as None type
+        # If only the array size is initialized then initialize all the elements as None type
         if(defaultValue == None):
             self.items = list()
             for i in range(size):
