@@ -1,4 +1,4 @@
-#Author: OMKAR PATHAK
+
 #This program illustrates an example of singly linked list
 
 class Node(object):
