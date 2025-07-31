@@ -1,6 +1,6 @@
 
 
-#This program illustrates an example of Stack implementation
+#This program illustrates an example of a Stack implementation
 #Stack Operations: push(), pop(), isEmpty(), peek(), stackSize()
 
 class Stack(object):
@@ -13,7 +13,7 @@ class Stack(object):
         return myString
 
     def push(self, data):
-        ''' Pushes a element to top of the stack '''
+        ''' Pushes an element to the top of the stack '''
         if(self.isFull() != True):
             self.index.append(data)
         else:
