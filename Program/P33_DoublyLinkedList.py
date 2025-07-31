@@ -1,5 +1,5 @@
 
-#This program illustrates an example of singly linked list
+#This program illustrates an example of a singly linked list
 
 class Node(object):
     def __init__(self, data, Next = None, Previous = None):
@@ -31,7 +31,7 @@ class LinkedList(object):
         self.head = None
 
     def isEmpty(self):
-        ''' This function checks whether the list is empty'''
+        ''' This function checks whether the list is empty.'''
         return self.head == None
 
     def insertFirst(self, data):
