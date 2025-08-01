@@ -1,6 +1,6 @@
 
 
-#This program illsutrates an example of N-ary search
+#This program illustrates an example of N-ary search
 
 ARRAY_SIZE = 10000000       # Size of our array
 DIVISIONS = 10              # N-ary count
