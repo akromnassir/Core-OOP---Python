@@ -1,5 +1,5 @@
 
-# This example illustrates an example to calculate a hash of a file
+# This example illustrates how to calculate a hash of a file
 
 import hashlib
 BLOCKSIZE = 65536           # Block read size if file is big enough
