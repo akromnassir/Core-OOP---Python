@@ -1,5 +1,5 @@
 
-#In this example, we will see how to implement a simple reader Writer program using Python (Mutex)
+#In this example, we will see how to implement a simple reader-writer program using Python (Mutex)
 
 import threading as thread
 import random
@@ -11,7 +11,7 @@ lock = thread.Lock()    #Lock for synchronising access
 def Reader():
     global x
     print('Reader is Reading!')
-    lock.acquire()      #Acquire the lock before Reading (mutex approach)
+    lock.acquire()      #Acquire the lock before reading (mutex approach)
     print('Shared Data:', x)
     lock.release()      #Release the lock after Reading
     print()
