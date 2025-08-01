@@ -4,7 +4,7 @@
 import random
 from collections import Counter
 
-someWords = '''apple banana mango strawberry orange grape pineapple apricot lemon coconut watermelon
+someWords = 'apple banana mango strawberry orange grape pineapple apricot lemon coconut watermelon
 cherry papaya berry peach lychee muskmelon'''
 
 someWords = someWords.split(' ')
@@ -44,7 +44,7 @@ if __name__ == '__main__':
                 continue
 
 
-            # If letter is guessed correcly
+            # If the letter is guessed correctly
             if guess in word:
                 letterGuessed += guess
 
