@@ -1,4 +1,4 @@
-#Author: OMKAR PATHAK
+
 
 #This program illsutrates an example of N-ary search
 
