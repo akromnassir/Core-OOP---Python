@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This example illustrates an example to calculate a hash of a file
 
 import hashlib
