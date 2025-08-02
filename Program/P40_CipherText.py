@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This program illustrates a simple example for encrypting/ decrypting your text
 
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
