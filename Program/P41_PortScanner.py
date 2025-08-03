@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This program illustrates a simple port scanner using Python that scans for open ports
 
 import socket,sys
