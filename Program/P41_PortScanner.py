@@ -1,7 +1,7 @@
 
 # This program illustrates a simple port scanner using Python that scans for open ports
 
-import socket,sys
+import socket, sys
 
 def connect(host):
     print('Scanning host:', host)
