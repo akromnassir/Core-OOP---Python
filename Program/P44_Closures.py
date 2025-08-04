@@ -1,5 +1,6 @@
 
 # Wikipedia:
+
 # A closure is a record storing a function[a] together with an environment:
 # a mapping associating each free variable of the function (variables that are used locally, but
 # defined in an enclosing scope) With the value or reference to which the name was bound when
