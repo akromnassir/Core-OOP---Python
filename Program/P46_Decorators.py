@@ -3,8 +3,8 @@
 
 # Decorators provide a simple syntax for calling higher-order functions. By definition, 
 # a decorator is a function that takes another function and extends the behavior of the
-# latter function without explicitly modifying it. Sounds confusing – but it's really not,
-# especially after we go over a number of examples.
+# latter function without explicitly modifying it. Sounds confusing – but it's not,
+# especially after we go over several examples.
 
 def decorator(myFunc):
     def insideDecorator(*args):
