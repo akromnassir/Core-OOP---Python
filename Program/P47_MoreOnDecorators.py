@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # In this example, we will be seeing some more concepts of decorators such as
 # property decorator, getters and setters methods.
 
