@@ -18,10 +18,10 @@ class BankAccount(object):
         self.lastName = lastName
 
 if __name__ == '__main__':
-    acc = BankAccount('Omkar', 'Pathak')
+    acc = BankAccount('Nasirovr', 'Akrom')
     print(acc.fullName)              # Notice that we can access the method for our class BankAccount without
                                      # parentheses! This is because of the property decorator
 
-    # acc.fullName = 'Omkar Pathak'    #This throws an error! Hence, setter decorator should be used.
-    acc.fullName = 'Jagdish Pathak'
+    # acc.fullName = 'Akrom Nasirov'    #This throws an error! Hence, the setter decorator should be used.
+    acc.fullName = 'Doni Adbdujalilov'
     print(acc.fullName)
