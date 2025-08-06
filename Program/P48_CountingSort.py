@@ -1,8 +1,8 @@
-#  Author: OMKAR PATHAK
 
 #  Approach:
+
 #  Counting sort, like radix sort and bucket sort,
-#  is an integer based algorithm (i.e. the values of the input
+#  is an integer-based algorithm (i.e., the values of the input
 #  array are assumed to be integers). Hence counting sort is
 #  among the fastest sorting algorithms around, in theory. The
 #  particular distinction for counting sort is that it creates
