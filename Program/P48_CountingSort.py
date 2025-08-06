@@ -10,7 +10,7 @@
 #  Then, each time a value is encountered in the input collection,
 #  the appropriate counter is incremented. Because counting sort
 #  creates a bucket for each value, an imposing restriction is
-#  that the maximum value in the input array be known beforehand.
+#  that the maximum value in the input array must be known beforehand.
 
 #  Implementation notes:
 #  1] Since the values range from 0 to k, create k+1 buckets.
@@ -21,11 +21,11 @@
 #  buckets. Each bucket's key represents a value in the
 #  array. So for each bucket, from smallest key to largest,
 #  add the index of the bucket to the input array and
-#  decrease the counter in said bucket by one; until the
+#  decrease the counter in said bucket by one, until the
 #  counter is zero.
 
 #  Best Case O(n+k); Average Case O(n+k); Worst Case O(n+k),
-#  where n is the size of the input array and k means the
+#  where n is the size of the input array, and k means the
 #  values range from 0 to k.
 
 def countingSort(myList):
