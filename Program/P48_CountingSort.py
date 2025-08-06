@@ -3,11 +3,11 @@
 
 #  Counting sort, like radix sort and bucket sort,
 #  is an integer-based algorithm (i.e., the values of the input
-#  array are assumed to be integers). Hence counting sort is
+#  array are assumed to be integers). Hence, counting sort is
 #  among the fastest sorting algorithms around, in theory. The
 #  particular distinction for counting sort is that it creates
-#  a bucket for each value and keep a counter in each bucket.
-#  Then each time a value is encountered in the input collection,
+#  a bucket for each value and keeps a counter in each bucket.
+#  Then, each time a value is encountered in the input collection,
 #  the appropriate counter is incremented. Because counting sort
 #  creates a bucket for each value, an imposing restriction is
 #  that the maximum value in the input array be known beforehand.
