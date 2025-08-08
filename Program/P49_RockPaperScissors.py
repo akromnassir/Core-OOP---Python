@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This program illustrates a game of Rock Paper Scissors.
 # RULES:
 # Rock beats scissors
