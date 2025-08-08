@@ -1,6 +1,6 @@
 # This program illustrates a game of Rock, Paper, Scissors.
 # RULES:
-# Rock beats scissors
+# Rock beats scissors 
 # Scissors beat paper
 # Paper beats rock
 
