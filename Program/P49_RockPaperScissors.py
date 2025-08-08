@@ -2,7 +2,7 @@
 # This program illustrates a game of Rock, Paper, Scissors.
 # RULES:
 # Rock beats scissors
-# Scissors beats paper
+# Scissors beat paper
 # Paper beats rock
 
 import random, time
