@@ -2,7 +2,7 @@
 # In this example, we will see how to write list comprehensions to make our tasks easier:
 
 # Python.org says:
-# List comprehensions provide a concise way to create lists.
+List comprehensions provide a concise way to create lists efficiently.
 # Common applications are to make new lists where each element is
 # The result of some operations applied to each member of another sequence
 # or iterable, or to create a subsequence of those elements that satisfy a certain condition.
@@ -19,11 +19,11 @@ print(numbers)              # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 numbers = [i for i in range(10)]
 print(numbers)              # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-# Let us see few more examples
+# Let us see a few more examples
 squares = [i * i for i in range(10)]
 print(squares)              # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
-# This is same as:
+# This is the same as:
 squares = []
 for i in range(10):
     squares.append(i * i)
@@ -32,7 +32,7 @@ for i in range(10):
 odds = [i for i in numbers if i % 2 != 0]
 print(odds)                 # [1, 3, 5, 7, 9]
 
-# This is same as:
+# This is the same as:
 odds = []
 for i in numbers:
     if i % 2 != 0:
