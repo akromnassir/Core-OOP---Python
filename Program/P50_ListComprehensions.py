@@ -4,7 +4,7 @@
 # Python.org says:
 # List comprehensions provide a concise way to create lists.
 # Common applications are to make new lists where each element is
-# the result of some operations applied to each member of another sequence
+# The result of some operations applied to each member of another sequence
 # or iterable, or to create a subsequence of those elements that satisfy a certain condition.
 
 numbers = []
@@ -13,7 +13,7 @@ for i in range(10):
 print(numbers)              # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 # Side Effect of above operation:It creates a variable(or overwrites) named 'x'
-# that still exists after the loop completes. To get rid of this Side Effect we use List comprehensions.
+# that still exists after the loop completes. To eliminate this Side Effect, we use List comprehensions.
 
 # List comprehension:
 numbers = [i for i in range(10)]
