@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This example shows how to use Python with JSON
 
 import json
