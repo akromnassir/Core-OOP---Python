@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # In this example we will see how to write list comprehensions to make our tasks easier
 
 # Python.org says:
