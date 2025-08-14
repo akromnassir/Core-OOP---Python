@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This program illustrates the shell sort implementation in Python
 
 # According to Wikipedia "Shell sort or Shell's method, is an in-place comparison sort.
