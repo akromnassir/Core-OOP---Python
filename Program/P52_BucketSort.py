@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # This program will illustrate how to implement bucket sort algorithm
 
 # Wikipedia says: Bucket sort, or bin sort, is a sorting algorithm that works by distributing the
