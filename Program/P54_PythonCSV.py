@@ -3,7 +3,7 @@
 
 # csv.QUOTE_ALL = Instructs writer objects to quote all fields.
 # csv.QUOTE_MINIMAL = Instructs writer objects to only quote those fields which contain special characters such
-#                     as delimiter, quotechar or any of the characters in lineterminator.
+#                     as delimiters, quotechar or any of the characters in lineterminator.
 # csv.QUOTE_NONNUMERIC = Instructs writer objects to quote all non-numeric fields.
 #                        Instructs the reader to convert all non-quoted fields to type float.
 # csv.QUOTE_NONE = Instructs writer objects to never quote fields.
