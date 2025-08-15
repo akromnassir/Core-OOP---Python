@@ -6,10 +6,10 @@
 def is_isogram(word):
     # Convert the word or sentence in lower case letters.
     clean_word = word.lower()
-    # Make ann empty list to append unique letters
+    # Make an empty list to append unique letters
     letter_list = []
     for letter in clean_word:
-        # If letter is an alphabet then only check
+        # If the letter is an alphabet, then only check
         if letter.isalpha():
             if letter in letter_list:
                 return False
