@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 # In this example we will see how to use CSV files with Python
 
 # csv.QUOTE_ALL = Instructs writer objects to quote all fields.
