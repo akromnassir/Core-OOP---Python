@@ -1,5 +1,5 @@
 
-# In this example we will see how to use CSV files with Python
+# In this example, we will see how to use CSV files with Python
 
 # csv.QUOTE_ALL = Instructs writer objects to quote all fields.
 # csv.QUOTE_MINIMAL = Instructs writer objects to only quote those fields which contain special characters such
