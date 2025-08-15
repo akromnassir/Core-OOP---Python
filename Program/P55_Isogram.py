@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # ISOGRAM: An isogram (also known as a "nonpattern word") is a logological term for a word
 # or phrase without a repeating letter
