@@ -1,10 +1,9 @@
 
-
 # ISOGRAM: An isogram (also known as a "nonpattern word") is a logological term for a word
 # or phrase without a repeating letter
 
 def is_isogram(word):
-    # Convert the word or sentence in lower case letters.
+    # Convert the word or sentence to lower case letters.
     clean_word = word.lower()
     # Make an empty list to append unique letters
     letter_list = []
