@@ -9,7 +9,7 @@ def pangram(sentence):
 	alphabets = []
 	for letter in sentence:
 		if letter.isalpha():
-			if letter in alphabets:
+			if letter in alphabet:
 				pass
 			else:
 				alphabets.append(letter)
