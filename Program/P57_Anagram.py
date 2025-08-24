@@ -1,9 +1,9 @@
 
-# ANAGRAM: An anagram is direct word switch or word play, the result of rearranging the letters
+# ANAGRAM: An anagram is a direct word switch or word play, the result of rearranging the letters
 # of a word or phrase to produce a new word or phrase, using all the original letters exactly once
 
 # We are taking a word and a list. We return the anagrams of that word from the given list and return the
-# list of anagrams else return empty list
+# list of anagrams, else return empty list
 
 from collections import Counter
 
