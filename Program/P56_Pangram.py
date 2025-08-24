@@ -20,7 +20,7 @@ def pangram(sentence):
 	else:
 		return False
 
-# A short version of above function:
+# A short version of the above function:
 def pangram2(sentence):
     alphabet = list(map(chr, range(97, 123)))
     formattedString = ''.join(c for c in sentence if c.isalpha()).lower()
