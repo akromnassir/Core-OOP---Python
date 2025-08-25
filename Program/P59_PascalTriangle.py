@@ -1,5 +1,4 @@
 
-
 # PASCAL TRIANGLE: To build the triangle, start with "1" at the top, then continue placing numbers
 # below it in a triangular pattern. Each number is the number directly above it.
 
