@@ -1,5 +1,5 @@
 
-# In this example we will see how to use pickle module for storing the data efficiently!
+# In this example, we will see how to use pickle module for storing the data efficiently!
 # The pickle module translates an in-memory Python object into a serialized byte stream—a string of bytes
 # that can be written to any file-like object.
 
