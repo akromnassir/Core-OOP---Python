@@ -1,4 +1,3 @@
-
 # In this example, we will see how to implement graphs in Python
 
 class Vertex(object):
@@ -26,7 +25,7 @@ class Vertex(object):
             return None
 
 class Graph(object):
-    ''' This class helps to create Graph with the help of created vertexes '''
+    ''' This class helps to create a Graph with the help of created vertices '''
     def __init__(self):
         self.vertexList = {}
         self.count = 0
