@@ -1,3 +1,4 @@
+
 # Depth-first search is performed in three ways:
 # Inorder
 # Preorder
@@ -34,7 +35,7 @@ class Node(object):
         return self.data
 
 
-# in this we traverse first to the leftmost node, then print its data and then traverse for rightmost node
+# In this, we traverse first to the leftmost node, then print its data, and then traverse to rthe ightmost node
 def inorder(Tree):
     if Tree:
         inorder(Tree.getLeft())
