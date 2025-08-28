@@ -43,7 +43,7 @@ def inorder(Tree):
         inorder(Tree.getRight())
     return
 
-# in this we first print the root node and then traverse towards leftmost node and then to the rightmost node
+# In this, we first print the root node and then traverse towards the leftmost node and then to the rightmost node
 def preorder(Tree):
     if Tree:
         print(Tree.getData(), end = ' ')
