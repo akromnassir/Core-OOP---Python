@@ -35,7 +35,7 @@ class Node(object):
         return self.data
 
 
-# In this, we traverse first to the leftmost node, then print its data, and then traverse to rthe ightmost node
+# In this, we traverse first to the leftmost node, then print its data, and then traverse to the rightmost node
 def inorder(Tree):
     if Tree:
         inorder(Tree.getLeft())
