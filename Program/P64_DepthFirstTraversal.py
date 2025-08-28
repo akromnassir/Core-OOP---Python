@@ -1,4 +1,4 @@
-# Depth first search is performed in three ways:
+# Depth-first search is performed in three ways:
 # Inorder
 # Preorder
 # Postorder
