@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # Breadth First Traversal is the one in which we print the data level wise. Refer below code and output for more
 # explanation
