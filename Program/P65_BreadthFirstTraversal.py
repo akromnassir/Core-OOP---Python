@@ -1,4 +1,4 @@
-# Breadth-First Traversal is the one in which we print the data level by level. Refer code below and the output for more
+# Breadth-First Traversal is the one in which we print the data level by level. Refer the code below and the output for more
 # explanation
 
 class Node(object):
