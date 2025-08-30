@@ -1,11 +1,12 @@
 
 #  Approach:
+
 #  Heap sort happens in two phases. In the first phase, the array
 #  is transformed into a heap. A heap is a binary tree where
-#  1) each node is greater than each of its children
-#  2) the tree is perfectly balanced
-#  3) all leaves are in the leftmost position available.
-#  In phase two the heap is continuously reduced to a sorted array:
+#  1) Each node is greater than each of its children
+#  2) The tree is perfectly balanced
+#  3) All leaves are in the leftmost position available.
+#  In phase two, the heap is continuously reduced to a sorted array:
 #  1) while the heap is not empty
 #  - remove the top of the head into an array
 #  - fix the heap.
