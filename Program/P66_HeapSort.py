@@ -23,7 +23,7 @@ def HeapSort(alist):
         end -= 1
 
 def heapify(alist):
-    ''' This function helps to maintain the heap property '''
+    ''' This function helps to maintain the heap property. '''
     # start = (len(alist) - 2) // 2         (faster execution)
     start = len(alist) // 2
     while start >= 0:
