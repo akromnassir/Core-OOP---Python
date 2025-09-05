@@ -7,15 +7,15 @@ class Graph():
         self.vertex = {}
         self.count = count          # vertex count
 
-    # for printing the Graph vertexes
+    # for printing the Graph vertices
     def printGraph(self):
-        for i in self.vertex.keys():
+        for i in self. vertex.keys():
             print(i,' -> ', ' -> '.join([str(j) for j in self.vertex[i]]))
 
-    # for adding the edge beween two vertexes
+    # for adding the edge between two vertices
     def addEdge(self, fromVertex, toVertex):
         # check if vertex is already present,
-        if fromVertex in self.vertex.keys():
+        if fromVertex in self. vertex.keys():
             self.vertex[fromVertex].append(toVertex)
         else:
             # else make a new vertex
