@@ -1,14 +1,12 @@
-
-
-# Sieve of Eratosthenes is one of the efficient algorithms to find all the prime numbers upto n, where n can be
-# upto 10 million. This algorithm is very efficient and fast and hence is preferred by many competitive programmers.
+# Sieve of Eratosthenes is one of the efficient algorithms to find all the prime numbers up to n, where n can be
+# Up to 10 million. This algorithm is very efficient and fast, and hence is preferred by many competitive programmers.
 
 # Algo:
 # 1. Create a list of consecutive integers from 2 to n: (2, 3, 4, …, n).
 # 2. Initially, let p equal 2, the first prime number.
 # 3. Starting from p, count up in increments of p and mark each of these numbers greater than p itself in the list.
 #    These numbers will be 2p, 3p, 4p, etc.; note that some of them may have already been marked.
-# 4. Find the first number greater than p in the list that is not marked. If there was no such number, stop. Otherwise,
+# 4. Find the first number greater than p in the list that is not marked. If there were no such number, stop. Otherwise,
 #    let p now equal this number (which is the next prime), and repeat from step 3.
 # When the algorithm terminates, all the numbers in the list that are not marked are prime.
 
