@@ -1,5 +1,4 @@
 
-
 # Python program to reverse the words
 
 userInput = input()
