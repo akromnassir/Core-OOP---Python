@@ -1,6 +1,5 @@
 
-
-# This module helps to build the testcases for a particular program to test its integrity and overall execution
+# This module helps to build the test cases for a particular program to test its integrity and overall execution
 
 import unittest
 
