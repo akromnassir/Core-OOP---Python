@@ -1,5 +1,5 @@
 # This is the program for creating a simple progress bar. You may need this in many of your projects.
-# You can install a module for progress bar by 'pip3 install progressbar2'
+# You can install a module for a progress bar by 'pip3 install progressbar2'
 
 import sys, time
 
