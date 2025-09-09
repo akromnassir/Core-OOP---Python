@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # In this program we will learn what Python lambda is.
 # The lambda operator or lambda function is a way to create small anonymous functions, i.e. functions without
