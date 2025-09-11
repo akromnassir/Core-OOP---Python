@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # A Python generator is a function which returns a generator iterator (just an object we can iterate over)
 # by calling yield
