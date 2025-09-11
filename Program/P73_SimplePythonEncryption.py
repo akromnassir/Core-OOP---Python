@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # This program illustrates a simple Python encryption example using the RSA Algotrithm
 
