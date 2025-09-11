@@ -1,5 +1,5 @@
 
-# This program illustrates a simple Python encryption example using the RSA Algotrithm
+# This program illustrates a simple Python encryption example using the RSA Algorithm
 
 # RSA is an algorithm used by modern computers to encrypt and decrypt messages. It is an asymmetric
 # cryptographic algorithm. Asymmetric means that there are two different keys (public and private).
