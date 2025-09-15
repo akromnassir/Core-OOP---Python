@@ -1,4 +1,3 @@
-# Author: OMKAR PATHAK
 
 # For transfering files to your another/local computer, you will have to install a FTP
 # Daemon. Execute following for doing the same:
