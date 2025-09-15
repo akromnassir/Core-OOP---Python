@@ -1,6 +1,6 @@
 
 # For transferring files to another/local computer, you will have to install an FTP client.
-# Daemon. Execute following for doing the same:
+# Daemon. Execute the following to do the same:
 # 1. sudo apt-get install vsftpd
 # 2. service vsftpd start
 # 3. sudo cp /etc/vsftpd.conf /etc/vsftpd.conf.orig
