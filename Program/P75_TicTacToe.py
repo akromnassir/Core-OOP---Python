@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # A simple example of tic tac toe game
 
