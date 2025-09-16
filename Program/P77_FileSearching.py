@@ -1,6 +1,6 @@
 
-# This program will help us implement concepts such as binary searching, operating systems.
-# P.S: Dont run this on root. That is dont give the DIRECTORY path as root else the program might
+# This program will help us implement concepts such as binary searching and operating systems.
+# P.S.: Don't run this on root. That is don't give the DIRECTORY path as root else the program might
 # consume all your resources and your system might get crashed
 
 import os
