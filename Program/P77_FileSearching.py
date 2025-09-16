@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # This program will help us implement concepts such as binary searching, operating system.
 # P.S: Dont run this on root. That is dont give the DIRECTORY path as root else the program might
