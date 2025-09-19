@@ -1,4 +1,4 @@
-# Author: OMKAR PATHAK
+
 
 # This file requires two modules to be installed:
 # 1. pyxhook.py: file is provided in the folder itself
