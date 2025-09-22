@@ -53,7 +53,7 @@ if __name__ == '__main__':
     user = Student('OmkarPathak', 'Omkar', 'Pathak', 'MIT')
     session.add(user)
 
-    # commit the record the database
+    # commit the record to the database
     session.commit()
 
     # Select objects
