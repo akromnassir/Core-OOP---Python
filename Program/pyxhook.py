@@ -1,10 +1,10 @@
 #!/usr/bin/python
-#
-# pyxhook -- an extension to emulate some of the PyHook library on linux.
+
+# pyxhook -- an extension to emulate some of the PyHook library on Linux.
 #
 #    Copyright (C) 2008 Tim Alexander <dragonfyre13@gmail.com>
 #
-#    This program is free software; you can redistribute it and/or modify
+#    This program is free software; you can redistribute it and/or modify it
 #    it under the terms of the GNU General Public License as published by
 #    the Free Software Foundation; either version 2 of the License, or
 #    (at your option) any later version.
@@ -27,7 +27,7 @@
 #    
 #    This requires: 
 #    at least python-xlib 1.4
-#    xwindows must have the "record" extension present, and active.
+#    xwindows must have the "record" extension present and active.
 #    
 #    This file has now been somewhat extensively modified by 
 #    Daniel Folkinshteyn <nanotube@users.sf.net>
@@ -48,7 +48,7 @@ from Xlib.protocol import rq
 #######################################################################
 
 class HookManager(threading.Thread):
-    """This is the main class. Instantiate it, and you can hand it KeyDown and KeyUp (functions in your own code) which execute to parse the pyxhookkeyevent class that is returned.
+    """This is the main class. Instantiate it, and you can hand it KeyDown and KeyUp (functions in your own code), which execute to parse the PyHookKeyEvent class that is returned.
 
     This simply takes these two values for now:
     KeyDown = The function to execute when a key is pressed, if it returns anything. It hands the function an argument that is the pyxhookkeyevent class.
