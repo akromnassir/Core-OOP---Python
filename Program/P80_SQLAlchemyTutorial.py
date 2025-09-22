@@ -1,5 +1,5 @@
 
-# This is a simple tutorial on usinng SQLAlchemy as ORM (Object Relational Mapping)
+# This is a simple tutorial on using SQLAlchemy as ORM (Object Relational Mapping)
 
 # Make sure you have installed SQLAlchemy using: pip3 install sqlalchemy
 
