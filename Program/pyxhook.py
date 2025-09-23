@@ -2,7 +2,7 @@
 
 # pyxhook -- an extension to emulate some of the PyHook library on Linux.
 #
-#    Copyright (C) 2008 Tim Alexander <dragonfyre13@gmail.com>
+
 #
 #    This program is free software; you can redistribute it and/or modify it
 #    it under the terms of the GNU General Public License as published by
